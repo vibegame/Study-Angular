@@ -1,0 +1,21 @@
+.viewApples {
+}
+
+input {
+  display: block;
+  height: 30px;
+  font-size: 15px;
+  line-height: 30px;
+  padding: 0 0 0 5px;
+  outline: 0;
+  border: solid 1px #8585FF;
+}
+
+input:focus {
+  border: solid 1px #6D8DE8;
+}
+
+span {
+  display: block;
+  margin-top: 10px;
+}
