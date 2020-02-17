@@ -1,0 +1,13 @@
+<div
+  class="sprite-viewer-mask"
+  [style.width.px]="width"
+  [style.height.px]="height"
+  (click)="clicked.emit()"
+>
+  <img
+    class="sprite-viewer-view"
+    [style.transform]="'translate('+(-offsetX)+'px, '+(-offsetY)+'px)'"
+    [src]="url"
+    alt="Card"
+  />
+</div>
