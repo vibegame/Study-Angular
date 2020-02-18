@@ -3,11 +3,8 @@
   [style.width.px]="width"
   [style.height.px]="height"
   (click)="clicked.emit()"
+  [style.background]="'url(' + url + ')'"
+  [style.backgroundPositionX.px]="-offsetX"
+  [style.backgroundPositionY.px]="-offsetY"
 >
-  <img
-    class="sprite-viewer-view"
-    [style.transform]="'translate('+(-offsetX)+'px, '+(-offsetY)+'px)'"
-    [src]="url"
-    alt="Card"
-  />
 </div>

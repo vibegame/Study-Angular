@@ -5,9 +5,10 @@ import {SpriteViewer} from "./sprite-viewer.component";
 import {SpriteController} from "./sprite-controller.component";
 
 @NgModule({
-  imports: [ BrowserModule, FormsModule ],
+  imports: [ BrowserModule, FormsModule],
   declarations: [SpriteViewer, SpriteController],
   providers: [],
   bootstrap: [SpriteController]
 })
-export class AppModule { }
+export class AppModule {
+}

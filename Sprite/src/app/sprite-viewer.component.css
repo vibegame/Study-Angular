@@ -1,4 +1,4 @@
 .sprite-viewer-mask {
   display: inline-block;
-  overflow: hidden;
+  background-repeat: no-repeat;
 }

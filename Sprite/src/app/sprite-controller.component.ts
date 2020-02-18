@@ -14,7 +14,7 @@ export class SpriteController {
 
   public matrix:{x: number, y: number}[] = [];
 
-  public card:number = 6;
+  public card:number = 0;
 
   constructor() {
     this.createMatrix();
